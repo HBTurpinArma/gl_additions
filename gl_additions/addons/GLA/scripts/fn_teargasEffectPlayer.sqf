@@ -6,21 +6,19 @@ _gasmask = ["KA_MCU", "avon_fm12", "avon_fm12_strapless", "avon_ct12", "avon_ct1
 _vest = ["V_RebreatherB", "V_RebreatherIR", "V_RebreatherIA", "V_RebreatherB_S", "V_RebreatherIR_S", "V_RebreatherIA_S", "V_Rebreather_Nano_NATO", "V_Rebreather_Nano_CSAT"];
 _headgear = ["LAGO_CRYSIS_Helmet", "LAGO_CRYSIS_Helmet_O"];
 
-_myvariable = -1;
-
 While {true} do {
 
 	waituntil {((nearestObject [getpos player, "gla_40mm_cs_gas"]) distance player < 12) and (getpos (nearestObject [getpos player, "gla_40mm_cs_gas"]) select 2 < 0.5)};
 
 	if ((goggles player in _gasmask) or (headgear player in _headgear) or (vest player in _vest)) then {
 
-		playmusic "diver";
+		//playmusic "diver";
 		3 fadeMusic 0.3;
 
 	} else {
 		
 		// Start coughing sound effects
-		playmusic "coughing";
+		//playmusic "coughing";
 		
 		// Run the teargas effects on player
 		"dynamicBlur" ppEffectEnable true;
@@ -31,7 +29,7 @@ While {true} do {
 		player setFatigue 1;
 		
 		// Fade music/sound down
-		5 fadeMusic 0.1;
+		//5 fadeMusic 0.1;
 		sleep 5;
 		
 		// More intense effects
