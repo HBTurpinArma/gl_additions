@@ -1,5 +1,5 @@
 
-params ["_unit", "_droneClass"];
+params ["_unit", "_ammo"];
 
 
 
@@ -13,9 +13,9 @@ if (_isPlayer && {!local _unit}) exitWith {false};
 
 
 private _playerItems = itemsWithMagazines _unit;
-if (_droneClass != "" && !(_droneClass in _playerItems)) exitWith {false};
+if (_ammo != "" && !(_ammo in _playerItems)) exitWith {false};
 
-systemChat format ["Has item: %1", _droneClass];
+systemChat format ["Has item: %1", _ammo];
 
 
 private _startPos = if (_isPlayer) then {
