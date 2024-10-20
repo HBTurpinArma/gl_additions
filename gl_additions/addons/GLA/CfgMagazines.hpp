@@ -135,4 +135,35 @@ class CfgMagazines
 		mass=30.360001;
 	};
 
+
+	class 1Rnd_HE_Grenade_shell;
+	class gla_mag_APERS40_MINE : 1Rnd_HE_Grenade_shell {
+		ammo = "gla_40mm_APERS_Mine";
+		displayName = "APERS Mine";
+		displayNameShort = "APERS Mine";
+		descriptionShort = "Type: APERS Mine<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
+	};
+	class gla_mag_3Rnd_APERS40_MINE : gla_mag_APERS40_MINE {
+		ammo = "gla_40mm_APERS_Mine";
+		displayName = "3Rnd APERS Mine";
+		descriptionShort = "Type: APERS Mine<br />Caliber: 40mm<br />Rounds: 3";
+		count=3;
+		mass=15.130001;
+	};
+	class gla_mag_6Rnd_APERS40_MINE : gla_mag_APERS40_MINE {
+		ammo = "gla_40mm_APERS_Mine";
+		displayName = "6Rnd APERS Mine";
+		descriptionShort = "Type: APERS Mine<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
+		count=6;
+		mass=30.360001;
+	};
+
+
+	class 1Rnd_HE_Grenade_shell;
+	class gla_mag_Drone40_Recon : 1Rnd_HE_Grenade_shell {
+		ammo = "gla_40mm_Drone40_Recon";
+		displayName = "Drone40 Recon";
+		displayNameShort = "Drone40 R";
+		descriptionShort = "Type: Drone40 Recon<br />Caliber: 40mm<br />Rounds: 1<br />";
+	};
 };

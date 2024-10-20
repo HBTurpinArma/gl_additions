@@ -150,5 +150,29 @@ class CfgAmmo
 		deflectionSlowDown = 0;
 	};
 
+	class gla_40mm_APERS_Mine: G_40mm_HE
+	{
+		allowAgainstInfantry=1;
+		submunitionAmmo[]={"APERSMineDispenser_Deploy", 1};
+		submunitionConeType[]={"poissondisccenter", 1};
+		submunitionCount=1;
+		triggerOnImpact=1;
+		submunitionDirectionType="SubmunitionModelDirection";
+		submunitionInitialOffset[]={0,0,-0.5};
+		fuseDistance=0;
+		submunitionParentSpeedCoef=0;
+		deleteParentWhenTriggered=-1;
+		submunitionInitSpeed=1;
+	};
+
+    class gla_40mm_Drone40_Recon: FlareBase {
+        //model = ""; //Add GanX's model here
+        lightColor[] = {0, 0, 0, 0};
+        smokeColor[] = {0, 0, 0, 0};
+        timeToLive = 4;
+        //class Eventhandlers {
+        //    fired = QUOTE(call GLA_fnc_droneSpawn);
+        //};
+    };
 
 };
