@@ -14,10 +14,10 @@ class CfgVehicles {
 						displayName = "Drone40 (Recon)";
 						condition = QUOTE([_player, 'gla_mag_Drone40_Recon'] call GLA_fnc_dronePlaceCheck);
 						// Wait a frame to handle "Do When releasing action menu key" option
-						statement = QUOTE([ARR_2({[_this, 'gla_mag_Drone40_Recon', 'B_UAV_01_F'] call GLA_fnc_dronePlace}, _player)] call CBA_fnc_execNextFrame);
+						statement = QUOTE([ARR_2({[_player, 'gla_mag_Drone40_Recon', 'B_UAV_01_F', screenToWorld [0.5,0.5], vectorDir _player, [0,0,0], true] call GLA_fnc_dronePlace}, _player)] call CBA_fnc_execNextFrame);
 						exceptions[] = {};
 						showDisabled = 0;
-						icon = "\a3\air_f_exp\uav_03\data\ui\uav_01_ca.paa";
+						icon = "\a3\air_f_exp\uav_01\data\ui\uav_01_ca.paa";
 					};
 				};
 			};
