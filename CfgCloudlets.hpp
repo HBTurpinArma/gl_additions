@@ -1,0 +1,53 @@
+class CfgCloudlets {
+	class Default;
+	class FireSparks;
+	class FireDamage1;
+	class WPCloud;
+	class IncinerateFire;
+	class GLA_Incendiary_Impact : Default {
+		interval = 0.001;
+		timerPeriod = 1;
+		lifeTime = 3.6;
+		moveVelocity[] = {"(- inDirX * 2 + surfNormalX / 2) * inSpeed / 1902", "( - inDirY * 2 + surfNormalY / 2) * inSpeed / 1902", "( - inDirZ * 2 + surfNormalZ / 2) * inSpeed / 1902"};
+		rotationVelocity = 1;
+		weight = 100;
+		volume = 0.01;
+		rubbing = 0.3;
+		circleRadius = 0;
+		circleVelocity[] = {0, 0, 0};
+		particleShape = "\A3\data_f\ParticleEffects\Universal\Universal";
+		particleFSNtieth = 16;
+		particleFSIndex = 13;
+		particleFSFrameCount = 2;
+		particleFSLoop = 0;
+		angleVar = 360;
+		animationName = "";
+		particleType = "Billboard";
+		size[] = {0.101, 0.101, 0.101, 0.101, 0.101, 0.083, 0.082, 0.081, 0.08, 0};
+		color[] = {{1, 0.24, 0, -6.5}, {1, 0.24, 0, -6}, {1, 0.24, 0, -5.5}, {1, 0.24, 0, -4.5}};
+		emissiveColor[] = {{1, 0.1, 0.1, -6.5}, {1, 0.1, 0.1, -6}, {1, 0.1, 0.1, -5.5}, {1, 0.1, 0.1, -4.5}};
+		animationSpeed[] = {1000};
+		randomDirectionPeriod = 0.5;
+		randomDirectionIntensity = 0.55;
+		onTimerScript = "";
+		beforeDestroyScript = "";
+		blockAIVisibility = 0;
+		lifeTimeVar = 2.5;
+		positionVar[] = {0, 0.2, 0};
+		moveVelocityVar[] = {10, 10, 10};
+		rotationVelocityVar = 2;
+		sizeVar = 0.08;
+		colorVar[] = {0, 0.15, 0.15, 0};
+		randomDirectionPeriodVar = 0.3;
+		randomDirectionIntensityVar = 0.15;
+	};
+	class GLA_Thermite: IncinerateFire
+	{
+		damageTime=0.25;
+		coreIntensity=100;
+		size[]={0.5,1};
+		coreDistance=1;
+		sizeCoef=1;
+		rubbing=0;
+	};
+};
