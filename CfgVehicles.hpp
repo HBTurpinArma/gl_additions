@@ -24,10 +24,4 @@ class CfgVehicles {
 		};
 	};
 
-
-
-
-
-
-
 };

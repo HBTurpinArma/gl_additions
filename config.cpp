@@ -41,8 +41,6 @@ class CfgFunctions
 			class teargasEffectAI {};
 			class teargasEffectPlayer {};
 			class teargasGrenade {};
-			class dronePlaceCheck {};
-			class dronePlace {};
 		};
 	};
 };

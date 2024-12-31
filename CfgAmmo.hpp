@@ -164,15 +164,4 @@ class CfgAmmo
 		deleteParentWhenTriggered=-1;
 		submunitionInitSpeed=1;
 	};
-
-    class gla_40mm_Drone40_Recon: FlareBase {
-        //model = ""; //Add GanX's model here
-        lightColor[] = {0, 0, 0, 0};
-        smokeColor[] = {0, 0, 0, 0};
-        timeToLive = 4;
-        //class Eventhandlers {
-        //    fired = QUOTE(call GLA_fnc_droneSpawn);
-        //};
-    };
-
 };

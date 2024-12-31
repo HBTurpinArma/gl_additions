@@ -9,8 +9,7 @@ class CfgMagazineWells
 			"gla_mag_m4009_impact",
 			"gla_mag_M651_CS",
 			"gla_mag_M1060_Thermobaric",
-			"gla_mag_APERS40_MINE",
-			"gla_mag_Drone40_Recon"
+			"gla_mag_APERS40_MINE"
 		};
 	};
 	class CBA_40mm_3GL

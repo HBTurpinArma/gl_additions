@@ -157,13 +157,4 @@ class CfgMagazines
 		count=6;
 		mass=30.360001;
 	};
-
-
-	class 1Rnd_HE_Grenade_shell;
-	class gla_mag_Drone40_Recon : 1Rnd_HE_Grenade_shell {
-		ammo = "gla_40mm_Drone40_Recon";
-		displayName = "Drone40 Recon";
-		displayNameShort = "Drone40 R";
-		descriptionShort = "Type: Drone40 Recon<br />Caliber: 40mm<br />Rounds: 1<br />";
-	};
 };
