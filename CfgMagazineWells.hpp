@@ -9,6 +9,8 @@ class CfgMagazineWells
 			"gla_mag_m4009_impact",
 			"gla_mag_M651_CS",
 			"gla_mag_M1060_Thermobaric",
+			"gla_mag_XM678_Flechette",
+			"gla_mag_M1006_LessLethal",
 			"gla_mag_APERS40_MINE"
 		};
 	};
@@ -25,6 +27,8 @@ class CfgMagazineWells
 			"gla_mag_3Rnd_M781_Practice",
 			"gla_mag_3Rnd_M651_CS",
 			"gla_mag_3Rnd_M1060_Thermobaric",
+			"gla_mag_3Rnd_XM678_Flechette",
+			"gla_mag_3Rnd_M1006_LessLethal",
 			"gla_mag_3Rnd_APERS40_MINE"
 		};
 	};
@@ -35,6 +39,8 @@ class CfgMagazineWells
 			"gla_mag_6Rnd_m4009_impact",
 			"gla_mag_6Rnd_M651_CS",
 			"gla_mag_6Rnd_M1060_Thermobaric",
+			"gla_mag_6Rnd_XM678_Flechette",
+			"gla_mag_6Rnd_M1006_LessLethal",
 			"gla_mag_6Rnd_APERS40_MINE"
 		};
 	};

@@ -1,6 +1,9 @@
 //The below config is purely the magazine items and what ammo type they use.
 class CfgMagazines
 {
+	//Base classes
+	class 1Rnd_HE_Grenade_shell;
+
 	//RHS 3GL Compatability
 	class rhs_mag_M441_HE;
 	class gla_mag_3Rnd_M441_HE: rhs_mag_M441_HE
@@ -89,8 +92,6 @@ class CfgMagazines
 		mass=30.360001;
 	};
 
-
-	class 1Rnd_HE_Grenade_shell;
 	class gla_mag_M651_CS : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_cs_gas";
 		displayName = "M651 CS Gas Round";
@@ -112,11 +113,9 @@ class CfgMagazines
 		mass=30.360001;
 	};
 
-
-	class 1Rnd_HE_Grenade_shell;
 	class gla_mag_M1060_Thermobaric : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_M1060";
-		displayName = "M1060 Thermobaric Grenade";
+		displayName = "XM1168 Thermobaric Grenade";
 		displayNameShort = "M1060 Thermobaric";
 		descriptionShort = "Type: Thermobaric Grenade<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
 	};
@@ -131,6 +130,49 @@ class CfgMagazines
 		ammo = "gla_40mm_M1060";
 		displayName = "6Rnd M1060 Thermobaric Grenade";
 		descriptionShort = "Type: Thermobaric Grenade<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
+		count=6;
+		mass=30.360001;
+	};
+
+
+	class gla_mag_XM678_Flechette : 1Rnd_HE_Grenade_shell {
+		ammo = "gla_40mm_XM678";
+		displayName = "XM678 Flechette Round";
+		displayNameShort = "XM678 Flechette";
+		descriptionShort = "Type: XM678 Flechette Round<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
+	};
+	class gla_mag_3Rnd_XM678_Flechette : gla_mag_XM678_Flechette {
+		ammo = "gla_40mm_XM678";
+		displayName = "3Rnd XM678 Flechette";
+		descriptionShort = "Type: XM678 Flechette Round<br />Caliber: 40mm<br />Rounds: 3";
+		count=3;
+		mass=15.130001;
+	};
+	class gla_mag_6Rnd_XM678_Flechette : gla_mag_XM678_Flechette {
+		ammo = "gla_40mm_XM678";
+		displayName = "6Rnd XM678 Flechette";
+		descriptionShort = "Type: XM678 Flechette Round<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
+		count=6;
+		mass=30.360001;
+	};
+
+	class gla_mag_M1006_LessLethal : 1Rnd_HE_Grenade_shell {
+		ammo = "gla_40mm_M1006";
+		displayName = "M1006 Less Lethal Slug";
+		displayNameShort = "M1006 Less Lethal";
+		descriptionShort = "Type: M1006 Less Lethal Slug<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
+	};
+	class gla_mag_3Rnd_M1006_LessLethal : gla_mag_M1006_LessLethal {
+		ammo = "gla_40mm_M1006";
+		displayName = "3Rnd M1006 Less Lethal Slug";
+		descriptionShort = "Type: XM1168 Less Lethal Slug<br />Caliber: 40mm<br />Rounds: 3";
+		count=3;
+		mass=15.130001;
+	};
+	class gla_mag_6Rnd_M1006_LessLethal : gla_mag_M1006_LessLethal {
+		ammo = "gla_40mm_M1006";
+		displayName = "6Rnd M1006 Less Lethal Slug";
+		descriptionShort = "Type: XM1168 Less Lethal Slug<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
 		count=6;
 		mass=30.360001;
 	};
@@ -157,4 +199,5 @@ class CfgMagazines
 		count=6;
 		mass=30.360001;
 	};
+
 };

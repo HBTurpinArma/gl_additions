@@ -51,10 +51,13 @@ class CfgAmmo
 {	
 	class B_12Gauge_Pellets_Submunition_Deploy;
 	class B_12Gauge_Pellets_Submunition;
-	class rhsusf_40mm_FLASHBANG;
+	class B_12Gauge_Slug;
+
 	class G_40mm_HE;
 	class SmokeShell;
     class FlareBase;
+
+	class rhsusf_40mm_FLASHBANG;
 
 	class gla_40mm_FLASHBANG_impact: rhsusf_40mm_FLASHBANG
 	{
@@ -149,6 +152,70 @@ class CfgAmmo
 		deflecting = 0;
 		deflectionSlowDown = 0;
 	};
+
+	class gla_40mm_XM678 : B_12Gauge_Pellets_Submunition {
+		hit = 6;
+		caliber = 1;
+		airFriction = -0.001;
+		timeToLive = 3;
+		simulationStep = 0.01;
+
+		submunitionAmmo = "gla_40mm_XM678_Deploy";
+		submunitionConeAngle = 1.6;
+		submunitionConeType[] = {"random", 47};
+		
+		AP = 2;
+		SH = 10;
+		CH = 90;
+		EN = 95;
+		VE = 340;
+		
+		visibleFire = 100;
+		visibleFireTime = 9;
+		audibleFire = 850;
+		audibleFireTime = 12;
+
+		EN = 500;
+	};
+	
+	class gla_40mm_XM678_Deploy : B_12Gauge_Pellets_Submunition_Deploy {
+		hit = 9;
+		caliber = 1.7;
+		airFriction = -0.0032;
+		deleteParentWhenTriggered = 1;
+		triggerTime = 0;
+		deflecting = 40;
+		
+		AP = 10;
+		SH = 10;
+		CH = 620;
+		EN = 95;
+		VE = 360;
+		
+		visibleFire = 100;
+		visibleFireTime = 9;
+		audibleFire = 850;
+		audibleFireTime = 12;
+
+		coefGravity = 0.45;
+		typicalSpeed = 70;
+	};
+
+	class gla_40mm_M1006 : B_12Gauge_Slug {
+		hit = 0.4;
+		caliber = 0.2;
+		airFriction = -0.0011;
+		
+		AP = 1;
+		SH = 1;
+		CH = 1;
+		EN = 200;
+		VE = 1;
+
+		typicalSpeed = 60;
+	};
+	
+
 
 	class gla_40mm_APERS_Mine: G_40mm_HE
 	{
