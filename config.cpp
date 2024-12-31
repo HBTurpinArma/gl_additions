@@ -26,7 +26,6 @@ class CfgPatches
 #include "CfgMagazines.hpp"
 #include "cfgCloudlets.hpp"
 #include "CfgAmmo.hpp"
-#include "CfgVehicles.hpp"
 
 class CfgFunctions
 {
