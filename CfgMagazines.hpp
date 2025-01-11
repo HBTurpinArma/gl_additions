@@ -92,26 +92,26 @@ class CfgMagazines
 		mass=30.360001;
 	};
 
-	class gla_mag_M651_CS : 1Rnd_HE_Grenade_shell {
-		ammo = "gla_40mm_cs_gas";
-		displayName = "M651 CS Gas Round";
-		displayNameShort = "M651 CS Gas";
-		descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
-	};
-	class gla_mag_3Rnd_M651_CS : gla_mag_M651_CS {
-		ammo = "gla_40mm_cs_gas";
-		displayName = "3Rnd M651 CS Gas Round";
-		descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 3";
-		count=3;
-		mass=15.130001;
-	};
-	class gla_mag_6Rnd_M651_CS : gla_mag_M651_CS {
-		ammo = "gla_40mm_cs_gas";
-		displayName = "6Rnd M651 CS Gas Round";
-		descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
-		count=6;
-		mass=30.360001;
-	};
+	// class gla_mag_M651_CS : 1Rnd_HE_Grenade_shell {
+	// 	ammo = "gla_40mm_cs_gas";
+	// 	displayName = "M651 CS Gas Round";
+	// 	displayNameShort = "M651 CS Gas";
+	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
+	// };
+	// class gla_mag_3Rnd_M651_CS : gla_mag_M651_CS {
+	// 	ammo = "gla_40mm_cs_gas";
+	// 	displayName = "3Rnd M651 CS Gas Round";
+	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 3";
+	// 	count=3;
+	// 	mass=15.130001;
+	// };
+	// class gla_mag_6Rnd_M651_CS : gla_mag_M651_CS {
+	// 	ammo = "gla_40mm_cs_gas";
+	// 	displayName = "6Rnd M651 CS Gas Round";
+	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
+	// 	count=6;
+	// 	mass=30.360001;
+	// };
 
 	class gla_mag_M1060_Thermobaric : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_M1060";

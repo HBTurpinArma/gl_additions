@@ -35,11 +35,11 @@ class CfgFunctions
 		{
 			tag = QUOTE(ADDON);
             file = FUNCTION_PATH;
-			class init {postInit=1;};
-			class firedHandler {};
-			class teargasEffectAI {};
-			class teargasEffectPlayer {};
-			class teargasGrenade {};
+			// class init {postInit=1;};
+			// class firedHandler {};
+			// class teargasEffectAI {};
+			// class teargasEffectPlayer {};
+			// class teargasGrenade {};
 		};
 	};
 };
