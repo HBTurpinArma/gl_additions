@@ -137,21 +137,21 @@ class CfgAmmo
 		ace_frag_classes[] = {"ACE_frag_small", "ACE_frag_small_HD", "gla_40mm_dragonsbreath"};
 	};
 	
-	class gla_40mm_cs_gas : SmokeShell {
-		timeToLive = 46;
-		hit = 4;
-		caliber = 2;
-		airFriction = -0.0075;
-		simulation = "shotSmoke";
-		explosionTime = 3;
-		AP = 1;
-		SH = 2;
-		CH = 50;
-		EN = 50;
-		VE = 180;
-		deflecting = 0;
-		deflectionSlowDown = 0;
-	};
+	// class gla_40mm_cs_gas : SmokeShell {
+	// 	timeToLive = 46;
+	// 	hit = 4;
+	// 	caliber = 2;
+	// 	airFriction = -0.0075;
+	// 	simulation = "shotSmoke";
+	// 	explosionTime = 3;
+	// 	AP = 1;
+	// 	SH = 2;
+	// 	CH = 50;
+	// 	EN = 50;
+	// 	VE = 180;
+	// 	deflecting = 0;
+	// 	deflectionSlowDown = 0;
+	// };
 
 	class gla_40mm_XM678 : B_12Gauge_Pellets_Submunition {
 		hit = 6;
