@@ -65,6 +65,27 @@ class CfgMagazines
 	};
 
 
+	//New ACE Compatabilities
+	class ACE_40mm_Pike;
+	class gla_mag_3Rnd_40mm_Pike: ACE_40mm_Pike
+	{
+		scope=2;
+		displayName="40mm 3Rnd Pike";
+		descriptionShort="Type: Pike<br />Caliber: 40 mm<br />Rounds: 3";
+		count=3;
+		mass=36;
+	};
+	class gla_mag_6Rnd_40mm_Pike: ACE_40mm_Pike
+	{
+		scope=2;
+		displayName="6Rnd Pike";
+		descriptionShort="Type: Pike<br />Caliber: 40 mm<br />Rounds: 6<br />Used in: M32";
+		count=6;
+		mass=72;
+	};
+
+
+
 	//New GL Additions
 	//Ideally we want to create new magaine icon for all of these using //picture = "\gl_additions\assets\xxx.paa";
 	class gla_mag_m4009_impact: rhs_mag_m4009

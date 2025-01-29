@@ -10,7 +10,8 @@ class CfgMagazineWells
 			"gla_mag_M1060_Thermobaric",
 			"gla_mag_XM678_Flechette",
 			"gla_mag_M1006_LessLethal",
-			"gla_mag_APERS40_MINE"
+			"gla_mag_APERS40_MINE",
+			"ACE_40mm_Pike"
 		};
 	};
 	class CBA_40mm_3GL
@@ -27,7 +28,8 @@ class CfgMagazineWells
 			"gla_mag_3Rnd_M1060_Thermobaric",
 			"gla_mag_3Rnd_XM678_Flechette",
 			"gla_mag_3Rnd_M1006_LessLethal",
-			"gla_mag_3Rnd_APERS40_MINE"
+			"gla_mag_3Rnd_APERS40_MINE",
+			"gla_mag_3Rnd_40mm_Pike"
 		};
 	};
 	class CBA_40mm_M203_6rnds
@@ -38,7 +40,8 @@ class CfgMagazineWells
 			"gla_mag_6Rnd_M1060_Thermobaric",
 			"gla_mag_6Rnd_XM678_Flechette",
 			"gla_mag_6Rnd_M1006_LessLethal",
-			"gla_mag_6Rnd_APERS40_MINE"
+			"gla_mag_6Rnd_APERS40_MINE",
+			"gla_mag_6Rnd_40mm_Pike"
 		};
 	};
 };
