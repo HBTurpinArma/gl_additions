@@ -136,23 +136,24 @@ class CfgMagazines
 
 	class gla_mag_M1060_Thermobaric : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_M1060";
-		displayName = "XM1168 Thermobaric Grenade";
+		displayName = "M1060 Thermobaric Grenade";
 		displayNameShort = "M1060 Thermobaric";
 		descriptionShort = "Type: Thermobaric Grenade<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
+		mass=8;
 	};
 	class gla_mag_3Rnd_M1060_Thermobaric : gla_mag_M1060_Thermobaric {
 		ammo = "gla_40mm_M1060";
 		displayName = "3Rnd M1060 Thermobaric Grenade";
 		descriptionShort = "Type: Thermobaric Grenade<br />Caliber: 40mm<br />Rounds: 3";
 		count=3;
-		mass=15.130001;
+		mass=24;
 	};
 	class gla_mag_6Rnd_M1060_Thermobaric : gla_mag_M1060_Thermobaric {
 		ammo = "gla_40mm_M1060";
 		displayName = "6Rnd M1060 Thermobaric Grenade";
 		descriptionShort = "Type: Thermobaric Grenade<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
 		count=6;
-		mass=30.360001;
+		mass=48;
 	};
 
 

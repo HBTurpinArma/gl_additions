@@ -126,14 +126,14 @@ class CfgAmmo
 	class gla_40mm_M1060 : G_40mm_HE {
 		hit = 76;
 		caliber = 1.8;
-		indirectHit = 395;
-		indirectHitRange = 8;
+		indirectHit = 100;
+		indirectHitRange = 2;
 		explosionEffects = "TBExplosion";
 		ace_frag_skip = 0;
-		ace_frag_charge = 30;
+		ace_frag_charge = 20;
 		ace_frag_force = 1;
-		ace_frag_metal = 160;
-		SH = 220;
+		ace_frag_metal = 10;
+		SH = 210;
 		ace_frag_classes[] = {"ACE_frag_small", "ACE_frag_small_HD", "gla_40mm_dragonsbreath"};
 	};
 	
