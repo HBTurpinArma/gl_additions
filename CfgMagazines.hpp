@@ -4,6 +4,122 @@ class CfgMagazines
 	//Base classes
 	class 1Rnd_HE_Grenade_shell;
 
+
+	//6GL Compatability for Vanilla Smokes (RHS stinks)
+	class 1Rnd_SmokeBlue_Grenade_shell;
+	class gla_mag_6Rnd_SmokeBlue: 1Rnd_SmokeBlue_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Blue Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_SmokeGreen_Grenade_shell;
+	class gla_mag_6Rnd_SmokeGreen: 1Rnd_SmokeGreen_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Green Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_SmokeOrange_Grenade_shell;
+	class gla_mag_6Rnd_SmokeOrange: 1Rnd_SmokeOrange_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Orange Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_SmokePurple_Grenade_shell;
+	class gla_mag_6Rnd_SmokePurple: 1Rnd_SmokePurple_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Purple Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_SmokeRed_Grenade_shell;
+	class gla_mag_6Rnd_SmokeRed: 1Rnd_SmokeRed_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Red Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_Smoke_Grenade_shell;
+	class gla_mag_6Rnd_SmokeWhite: 1Rnd_Smoke_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	class 1Rnd_SmokeYellow_Grenade_shell;
+	class gla_mag_6Rnd_SmokeYellow_Grenade_shell: 1Rnd_SmokeYellow_Grenade_shell
+	{
+		scope=2;
+		displayName="6Rnd Smoke Yellow Grenade";
+		descriptionShort="Type: Smoke Grenade<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=24;
+	};
+	
+	//6GL Compatability for Vanilla Flares (RHS stinks)
+	class UGL_FlareGreen_F;
+	class gla_mag_6Rnd_FlareGreen: UGL_FlareGreen_F
+	{
+		scope=2;
+		displayName="6Rnd Flare Round (Green)";
+		descriptionShort="Type: Flare Round<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=22;
+	};
+	class UGL_FlareWhite_F;
+	class gla_mag_6Rnd_FlareWhite: UGL_FlareWhite_F
+	{
+		scope=2;
+		displayName="6Rnd Flare Round (White)";
+		descriptionShort="Type: Flare Round<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=22;
+	};
+	class UGL_FlareRed_F;
+	class gla_mag_6Rnd_FlareRed: UGL_FlareRed_F
+	{
+		scope=2;
+		displayName="6Rnd Flare Round (Red)";
+		descriptionShort="Type: Flare Round<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=22;
+	};
+	class UGL_FlareYellow_F;
+	class gla_mag_6Rnd_FlareYellow: UGL_FlareYellow_F
+	{
+		scope=2;
+		displayName="6Rnd Flare Round (Yellow)";
+		descriptionShort="Type: Flare Round<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=22;
+	};
+	class UGL_FlareCIR_F;
+	class gla_mag_6Rnd_FlareCIR: UGL_FlareCIR_F
+	{
+		scope=2;
+		displayName="6Rnd Flare Round (CIR)";
+		descriptionShort="Type: Flare Round<br />Caliber: 40 mm<br />Rounds: 6";
+		count=6;
+		mass=22;
+	};
+
+	//6GL Compatability for Vanilla Illumination Flares (RHS stinks)
+
+
 	//RHS 3GL Compatability
 	class rhs_mag_M441_HE;
 	class gla_mag_3Rnd_M441_HE: rhs_mag_M441_HE

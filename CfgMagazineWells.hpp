@@ -41,7 +41,20 @@ class CfgMagazineWells
 			"gla_mag_6Rnd_XM678_Flechette",
 			"gla_mag_6Rnd_M1006_LessLethal",
 			"gla_mag_6Rnd_APERS40_MINE",
-			"gla_mag_6Rnd_40mm_Pike"
+			"gla_mag_6Rnd_40mm_Pike",
+			"gla_mag_6Rnd_SmokeBlue",
+			"gla_mag_6Rnd_SmokeGreen",
+			"gla_mag_6Rnd_SmokeOrange",
+			"gla_mag_6Rnd_SmokePurple",
+			"gla_mag_6Rnd_SmokeRed",
+			"gla_mag_6Rnd_SmokeWhite",
+			"gla_mag_6Rnd_SmokeYellow",
+			"gla_mag_6Rnd_FlareGreen",
+			"gla_mag_6Rnd_FlareRed",
+			"gla_mag_6Rnd_FlareWhite",
+			"gla_mag_6Rnd_FlareYellow",
+			"gla_mag_6Rnd_FlareCIR"
+
 		};
 	};
 };
