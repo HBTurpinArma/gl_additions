@@ -61,7 +61,7 @@ class CfgMagazines
 		mass=24;
 	};
 	class 1Rnd_SmokeYellow_Grenade_shell;
-	class gla_mag_6Rnd_SmokeYellow_Grenade_shell: 1Rnd_SmokeYellow_Grenade_shell
+	class gla_mag_6Rnd_SmokeYellow: 1Rnd_SmokeYellow_Grenade_shell
 	{
 		scope=2;
 		displayName="6Rnd Smoke Yellow Grenade";
@@ -229,27 +229,6 @@ class CfgMagazines
 		mass=30.360001;
 	};
 
-	// class gla_mag_M651_CS : 1Rnd_HE_Grenade_shell {
-	// 	ammo = "gla_40mm_cs_gas";
-	// 	displayName = "M651 CS Gas Round";
-	// 	displayNameShort = "M651 CS Gas";
-	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 1<br />Used in: M203, M320, M79";
-	// };
-	// class gla_mag_3Rnd_M651_CS : gla_mag_M651_CS {
-	// 	ammo = "gla_40mm_cs_gas";
-	// 	displayName = "3Rnd M651 CS Gas Round";
-	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 3";
-	// 	count=3;
-	// 	mass=15.130001;
-	// };
-	// class gla_mag_6Rnd_M651_CS : gla_mag_M651_CS {
-	// 	ammo = "gla_40mm_cs_gas";
-	// 	displayName = "6Rnd M651 CS Gas Round";
-	// 	descriptionShort = "Type: CS Gas Grenade<br />Caliber: 40mm<br />Rounds: 6<br />Used in: M32";
-	// 	count=6;
-	// 	mass=30.360001;
-	// };
-
 	class gla_mag_M1060_Thermobaric : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_M1060";
 		displayName = "M1060 Thermobaric Grenade";
@@ -271,7 +250,6 @@ class CfgMagazines
 		count=6;
 		mass=48;
 	};
-
 
 	class gla_mag_XM678_Flechette : 1Rnd_HE_Grenade_shell {
 		ammo = "gla_40mm_XM678";
@@ -314,7 +292,6 @@ class CfgMagazines
 		count=6;
 		mass=30.360001;
 	};
-
 
 	class 1Rnd_HE_Grenade_shell;
 	class gla_mag_APERS40_MINE : 1Rnd_HE_Grenade_shell {
